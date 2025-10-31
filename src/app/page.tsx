@@ -15,9 +15,11 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-green-50 overflow-x-hidden">
+    <div className="min-h-screen bg-cover bg-center bg-no-repeat overflow-x-hidden relative" style={{backgroundImage: 'url(/background.png)'}}>
+      {/* Semi-transparent overlay for better text readability */}
+      <div className="absolute inset-0 bg-gradient-to-br from-slate-50/90 via-white/85 to-green-50/90"></div>
       {/* Animated Hero Section */}
-      <section className="relative py-24 px-4 overflow-hidden">
+      <section className="relative py-24 px-4 overflow-hidden z-10">
         {/* Animated Background Elements */}
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-20 w-64 h-64 bg-green-400 rounded-full blur-3xl animate-pulse"></div>
