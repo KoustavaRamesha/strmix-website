@@ -32,7 +32,7 @@ export default function Home() {
               {/* Logo Animation */}
               <div className={`transition-all duration-1000 delay-300 ${isVisible ? 'opacity-100 scale-100' : 'opacity-0 scale-95'}`}>
                 <img
-                  src="https://z-cdn-media.chatglm.cn/files/ab0b5c5e-58df-46d9-a00f-375bf0f1a256_pasted_image_1761923913963.jpg?auth_key=1761927532-909201fe5c9543d69e8415128e02e7b0-0-b9b48a3707ad98c3367f46a713ab640a"
+                  src="/logo.jpg"
                   alt="STR Mix Logo"
                   className="w-32 h-32 lg:w-40 lg:h-40 object-contain mx-auto lg:mx-0"
                 />
