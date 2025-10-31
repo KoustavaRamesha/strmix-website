@@ -238,24 +238,8 @@ export default function GalleryPage() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-gradient-to-br from-green-50 to-yellow-50 py-16 px-4">
+      <section className="bg-gradient-to-br from-green-50 to-yellow-50 py-8 px-4">
         <div className="container mx-auto max-w-6xl text-center">
-          <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            Project Gallery
-          </h1>
-          <p className="text-xl text-gray-700 mb-8">
-            Showcase of projects built with STR Mix concrete
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            <Badge variant="secondary" className="bg-green-100 text-green-800">
-              <Building className="w-4 h-4 mr-1" />
-              100+ Projects
-            </Badge>
-            <Badge variant="secondary" className="bg-yellow-100 text-yellow-800">
-              <Calendar className="w-4 h-4 mr-1" />
-              Updated Daily
-            </Badge>
-          </div>
         </div>
       </section>
 
@@ -269,32 +253,7 @@ export default function GalleryPage() {
 
         <div className="container mx-auto max-w-7xl relative z-10">
           {/* Facility Header */}
-          <div className="text-center mb-16">
-            <div className="inline-flex items-center gap-2 bg-white/80 backdrop-blur-sm px-6 py-3 rounded-full shadow-lg mb-6">
-              <Zap className="w-5 h-5 text-green-600" />
-              <span className="text-sm font-medium text-gray-700">Advanced Manufacturing</span>
-            </div>
-            <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              Our State-of-the-Art Facility
-            </h2>
-            <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-              Explore our cutting-edge STR Mix concrete plant where innovation meets precision.
-              Every batch of concrete is crafted with advanced technology and unwavering quality standards.
-            </p>
-            <div className="flex flex-wrap justify-center gap-4 mt-8">
-              <Badge variant="secondary" className="bg-green-100 text-green-800 px-4 py-2 text-sm">
-                <Factory className="w-4 h-4 mr-2" />
-                28 Facility Images
-              </Badge>
-              <Badge variant="secondary" className="bg-blue-100 text-blue-800 px-4 py-2 text-sm">
-                <Camera className="w-4 h-4 mr-2" />
-                High Resolution
-              </Badge>
-              <Badge variant="secondary" className="bg-purple-100 text-purple-800 px-4 py-2 text-sm">
-                <Star className="w-4 h-4 mr-2" />
-                Premium Quality
-              </Badge>
-            </div>
+          <div className="text-center mb-8">
           </div>
 
           {/* View Toggle and Upload */}
